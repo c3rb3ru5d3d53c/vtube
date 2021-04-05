@@ -2,7 +2,13 @@
 
 This is my VTube Studio Unity Project, it works on Linux, Windows and MacOS using `Unity` and `OpenSeeFace`.
 
-https://www.youtube.com/channel/UCASUdhRodl9IBbL3hB-L1Jw
+Since I'm a Linux user, I tried `VSeeFace` using wine. However, this was buggy and really needed a native solution.
+
+I came across emilianavt's `OpenSeeFaceSample` project, and started working on my own modification of it.
+
+I will keep updating this project to make things more Linux friendly but still be operational for Windows, and MacOS.
+
+If you want to see videos I make using this project, visit my [YouTube Channel](https://www.youtube.com/channel/UCASUdhRodl9IBbL3hB-L1Jw).
 
 # Installing
 
