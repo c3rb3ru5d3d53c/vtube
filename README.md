@@ -1,6 +1,6 @@
 # Unity VTube Studio
 
-This is my VTube Studio Unity Project
+This is my VTube Studio Unity Project it works on Linux, Windows and MacOS using `Unity` and `OpenSeeFace`.
 
 https://www.youtube.com/channel/UCASUdhRodl9IBbL3hB-L1Jw
 
