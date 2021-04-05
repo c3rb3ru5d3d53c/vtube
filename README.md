@@ -31,11 +31,10 @@ Once all this is completed, you can then launch `UnityHub` and open the project.
 In order to support face tracking, you have to setup `OpenSeeFace`.
 
 ```bash
-cd Tools/OpenSeeFace/
 virtualenv -p python3 venv
-source venv
+source venv/bin/activate
 pip3 install onnxruntime==1.2.0 opencv-python pillow numpy
-python facetracker.py -c 0 -W 1280 -H 720 --discard-after 0 --scan-every 0 --no-3d-adapt 1 --max-feature-updates 900
+python3 Tools/OpenSeeFace/facetracker.py -c 0 -W 1280 -H 720 --discard-after 0 --scan-every 0 --no-3d-adapt 1 --max-feature-updates 900
 ```
 
 # Screen Sharing
