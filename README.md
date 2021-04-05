@@ -47,6 +47,8 @@ python3 Tools/OpenSeeFace/facetracker.py -c 0 -W 1280 -H 720 --discard-after 0 -
 
 # Screen Sharing
 
+![ScreenSharing](img/screenshare.gif)
+
 To share you screen on a plane in the a scene, create a plane and add the the `Assets/Scripts/VideoDevice.cs` script as a component to the object.
 
 Then you must drag and drop the `Assets/Scripts/VideoDevice.mat` on the plane.
