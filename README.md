@@ -36,4 +36,6 @@ Tools/screenshare.sh <monitor-number> <dummy-video-device>
 
 Once `screenshare.sh` is running, then using the `VideoDevice.cs` script, you must set the `deviceName` to something like `/dev/video2` where the dummy `v4l2loopback` device was created.
 
+It will then be possible to click `Play` in `Unity` and the screen sharing should be visible.
+
 Interestingly, Unity does not support `yuv` format but it does support `yuyv` format.
