@@ -20,6 +20,18 @@ git clone --recursive https://github.com/c3rb3ru5d3d53c/vtube.git
 
 Once all this is completed, you can then launch `UnityHub` and open the project.
 
+# Face Tracking
+
+In order to support face tracking, you have to setup `OpenSeeFace`.
+
+```bash
+cd Tools/OpenSeeFace/
+virtualenv -p python3 venv
+source venv
+pip3 install onnxruntime==1.2.0 opencv-python pillow numpy
+python facetracker.py -c 0 -W 1280 -H 720 --discard-after 0 --scan-every 0 --no-3d-adapt 1 --max-feature-updates 900
+```
+
 # Screen Sharing
 
 To share you screen on a plane in the a scene, create a plane and add the the `Assets/Scripts/VideoDevice.cs` script as a component to the object.
