@@ -4,6 +4,22 @@ This is my VTube Studio Unity Project
 
 https://www.youtube.com/channel/UCASUdhRodl9IBbL3hB-L1Jw
 
+# Installing
+
+To use this project you must first download `UnityHub`.
+```
+wget https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage -O unityhub
+chmod +x unityhub && mv unityhub /usr/bin
+```
+
+After `UnityHub` is downloaded, you will need to clone this repository.
+
+```
+git clone --recursive https://github.com/c3rb3ru5d3d53c/vtube.git
+```
+
+Once all this is completed, you can then launch `UnityHub` and open the project.
+
 # Screen Sharing
 
 To share you screen on a plane in the a scene, create a plane and add the the `Assets/Scripts/VideoDevice.cs` script as a component to the object.
