@@ -1,5 +1,13 @@
 # Unity VTube Studio
 
+__A Cross Platform Unity Project for VTubers__
+
+![version](https://img.shields.io/badge/Platform-Win-green)
+![version](https://img.shields.io/badge/Platform-Lin-green)
+![version](https://img.shields.io/badge/Platform-Mac-green)
+
+__About the Project:__
+
 This is my VTube Studio Unity Project, it works on Linux, Windows and MacOS using `Unity` and `OpenSeeFace`.
 
 Since I'm a Linux user, I tried `VSeeFace` using wine. However, this was buggy and really needed a native solution.
